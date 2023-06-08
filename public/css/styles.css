@@ -1,0 +1,363 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+    box-sizing: border-box;
+  }
+
+.navbar {
+    background-color: #EAC926;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.textoincio {
+  font-size: 20px;
+}
+
+.searchbar {
+    align-self: center;
+    width: 300px;
+    
+    height: auto;
+    margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 3px ;
+    font-size: 20px;
+  }
+
+  button {
+    align-self: center;
+    background-color: white;
+    color: black;
+    border-radius: 3px ;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#listado {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lista {
+    display: flex;
+    list-style-type: none;
+    padding-top: 20px;
+    margin: 0;
+  }
+  
+  .lista li {
+    margin-right: 25px;
+  }
+  
+.imagen{
+    display: block;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+/* EL BOTON QUE TIENE QUE APARECER CUANDO PASE A CELULAR */
+.burger-menu {
+  display: none;
+  background-color: #1259c3;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.burger-menu i {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.contenedor {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* LOS OBJETOS A VENDER */
+
+main {
+    background-color: #ebebeb;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.separacion {
+    margin-bottom: 10px;
+
+}
+
+div.caja-general {
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+}
+
+#articulos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #ebebeb;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    box-sizing: border-box;
+}  
+
+.icono-circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #26BA12;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconcamion {
+    font-size: 15px;
+    
+  }
+
+.cajaArticulo{
+    display: block;
+    background-color: white;
+    order: 2;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: -2px -2px rgba(0, 0, 0, 0.3);
+}
+
+#espacio{
+    display: flex;
+  justify-content: space-between;
+}
+
+
+h3 {
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+  }
+
+.precio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  
+.descuento {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #26BA12;
+  }
+  
+.descripcion {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+
+img {
+    width: 15vw;
+}
+
+p {
+  margin: 2px
+}
+
+/* PIE DE PAGINA */
+
+footer {
+  margin: auto;
+  width: 100%;
+  background-color: white;
+}
+
+#piedepagina{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  padding: 40px;
+}
+  
+  footer .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+.pietexto {
+  height: auto;
+  width: 300px;
+}  
+
+.copyright {
+  border-top: solid 0.5px #ebebeb;
+  background-color: white;
+  text-align: left;
+  font-size: 15px;
+  color: grey;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing:border-box ;
+}
+.celular {
+  display: block;
+}
+
+/* ============================================================RESPONSIVE============================================================ */
+
+@media (max-width: 767px) {
+  #inicio {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .logo-section {
+    width: 200px;
+    height: auto;
+    padding: 15px;
+  }
+
+  .textoincio {
+    font-size: 16px;
+  }
+
+  .searchbar {
+    margin: 10px 0;
+    font-size: 15px;
+    width: 200px;
+  }
+
+  button {
+    font-size: 13px;
+}
+
+#espacio {
+  justify-content: center;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  color:#757575;
+}
+
+.celular {
+  display: none;
+}
+
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+  #listado{
+    display: none;
+  }
+
+  .navbar {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+
+  .lista {
+    padding-top: 0;
+  }
+
+  .lista li {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+}
+
+/* Estilos para tablets en orientación vertical */
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  #inicio {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .textoincio {
+    font-size: 13px;
+  }
+
+  .searchbar {
+    width: 200px;
+    margin-left: 50px;
+  }
+
+  .lista li {
+    margin-right: 15px;
+    font-size: 16px;
+  }
+
+  .cajaArticulo {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+
+  #espacio {
+    margin-inline: 10px;
+  }
+}
+
+/* Estilos para tablets en orientación horizontal y pantallas más grandes */
+@media (min-width: 1024px) {
+  .searchbar {
+    width: 250px;
+    margin-left: 50px;
+  }
+
+  .lista li {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+
+  .cajaArticulo {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+
+  #espacio {
+    margin-inline: 10px;
+  }
+}
