@@ -236,6 +236,11 @@ footer {
   display: block;
 }
 
+.black-link {
+  color: black;
+  text-decoration: none;
+}
+
 /* ============================================================RESPONSIVE============================================================ */
 
 @media (max-width: 767px) {
