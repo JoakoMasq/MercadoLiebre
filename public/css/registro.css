@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+    box-sizing: border-box;
+  }
+
+.navbar {
+    background-color: #EAC926;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-section {
+    width: 200px;
+    height: auto;
+    padding: 15px;
+}
+
+
+
+.textoincio {
+  font-size: 20px;
+}
+
+.searchbar {
+    align-self: center;
+    width: 300px;
+    
+    height: auto;
+    margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 3px ;
+    font-size: 20px;
+  }
+
+  button {
+    align-self: center;
+    background-color: white;
+    color: black;
+    border-radius: 3px ;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#listado {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lista {
+    display: flex;
+    list-style-type: none;
+    padding-top: 20px;
+    margin: 0;
+  }
+  
+  .lista li {
+    margin-right: 25px;
+  }
+  
+.imagen{
+    display: block;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.cajaderegistro {
+    background: white;
+}
+
+.centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-sizing:border-box ;
+}
+
+.centrado2{
+   margin-bottom: 28vw;
+}
+/* TEXTO */
+
+h2 {
+    font-size: 2vw;
+}
+.registros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-sizing:border-box ;
+}
+
+.registroformulario {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+    font-size: 1vw;
+}
+
+.espacios {
+    padding: 5px ;
+}
+
+.texto {
+    padding: 5px;
+}
+
+.black-link {
+    color: black;
+    text-decoration: none;
+  }
+
+/* EL BOTON QUE TIENE QUE APARECER CUANDO PASE A CELULAR */
+.burger-menu {
+    display: none;
+    background-color: #1259c3;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+  
+.burger-menu i {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+  
+.contenedor {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* EL BOTON QUE TIENE QUE APARECER CUANDO PASE A CELULAR */
+
+/* PIE DE PAGINA */
+
+footer {
+    margin: auto;
+    width: 100%;
+    background-color: white;
+  }
+  
+  #piedepagina{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 40px;
+  }
+    
+    footer .icon {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+  
+  .pietexto {
+    height: auto;
+    width: 300px;
+  }  
+  
+  .copyright {
+    border-top: solid 0.5px #ebebeb;
+    background-color: white;
+    text-align: left;
+    font-size: 15px;
+    color: grey;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+/* PIE DE PAGINA */
