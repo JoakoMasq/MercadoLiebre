@@ -192,3 +192,135 @@ footer {
   }
 
 /* PIE DE PAGINA */
+
+@media (max-width: 767px) {
+    #inicio {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    .logo-section {
+      width: 200px;
+      height: auto;
+      padding: 15px;
+    }
+  
+    .textoincio {
+      font-size: 16px;
+    }
+  
+    .searchbar {
+      margin: 10px 0;
+      font-size: 15px;
+      width: 200px;
+    }
+  
+    button {
+      font-size: 13px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .registroformulario{
+    font-size: 15px;
+  }
+  
+  #espacio {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 25px;
+    color:#757575;
+  }
+  
+  .celular {
+    display: none;
+  }
+  
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    
+    #listado{
+      display: none;
+    }
+  
+    .navbar {
+      padding: 10px 20px;
+      font-size: 20px;
+    }
+  
+    .lista {
+      padding-top: 0;
+    }
+  
+    .lista li {
+      margin-right: 15px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos para tablets en orientación vertical */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    
+    #inicio {
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+  
+    .textoincio {
+      font-size: 13px;
+    }
+  
+    .searchbar {
+      width: 200px;
+      margin-left: 50px;
+    }
+  
+    .lista li {
+      margin-right: 15px;
+      font-size: 16px;
+    }
+  
+    .cajaArticulo {
+      width: 45%;
+      margin-bottom: 10px;
+    }
+  
+    #espacio {
+      margin-inline: 10px;
+    }
+  }
+  
+  /* Estilos para tablets en orientación horizontal y pantallas más grandes */
+  @media (min-width: 1024px) {
+    .searchbar {
+      width: 250px;
+      margin-left: 50px;
+    }
+  
+    .lista li {
+      margin-right: 20px;
+      font-size: 18px;
+    }
+  
+    .cajaArticulo {
+      width: 30%;
+      margin-bottom: 10px;
+    }
+  
+    #espacio {
+      margin-inline: 10px;
+    }
+  }
